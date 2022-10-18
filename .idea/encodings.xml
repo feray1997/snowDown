@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/snow-parent/snow-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/snow-parent/snow-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/snow-parent/snow-login/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/snow-parent/snow-serviceManager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/snow-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/snow-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/snow_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/snow_eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../localRepository/org/springframework/boot/spring-boot-starter-parent/2.7.4/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

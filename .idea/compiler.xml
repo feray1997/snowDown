@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="snow-eureka" />
+        <module name="snow-serviceManager" />
+        <module name="snow-login" />
+        <module name="snow-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="snow_eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="snow-eureka" options="-parameters" />
+      <module name="snow-gateway" options="-parameters" />
+      <module name="snow-login" options="-parameters" />
+      <module name="snow-parent" options="-parameters" />
+      <module name="snow-serviceManager" options="-parameters" />
+    </option>
+  </component>
+</project>
