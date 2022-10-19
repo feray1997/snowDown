@@ -1,0 +1,18 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: snow-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启从注册中心动态创建路由的功能，利用微服务名进行路由"
+eureka:
+  instance:
+    hostname: snow-gateway-service
+  client: # 服务提供者provider注册金eureka服务列表内
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://localhost:8000/eureka/

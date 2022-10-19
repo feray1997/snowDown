@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: snow-login
+server:
+  port: 8005
+eureka:
+  instance:
+    #表示将自己的 ip 注册到 Eureka Server 上
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+    register-with-eureka: true
+    fetchRegistry: true
+
