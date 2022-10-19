@@ -1,6 +1,14 @@
 spring:
   application:
     name: snow-login
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/snowBoardApp?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: hwl5201314
+# mybatis-plus
+mybatis-plus:
+  mapper-locations:  classpath*:/mappers/**/*.xml    #扫描xml文件
 server:
   port: 8005
 eureka:
@@ -12,4 +20,5 @@ eureka:
       defaultZone: http://localhost:8000/eureka/
     register-with-eureka: true
     fetchRegistry: true
+
 
