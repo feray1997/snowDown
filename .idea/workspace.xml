@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e37e1013-5be9-4073-9302-72c000764c29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/snow-parent/snow-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snow-parent/snow-login/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snow-parent/snow-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snow-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snow-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snow-parent/snow-login/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snow-parent/snow-login/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow-parent/snow-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snow-parent/snow-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow-parent/snow-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snow-parent/snow-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow-parent/snow-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snow-parent/snow-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow-parent/snow-gateway/src/main/java/cn/snowBoard/SnowGateWayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/snow-parent/snow-gateway/src/main/java/cn/snowBoard/SnowGateWayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow-parent/snow-gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow-parent/snow-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/snow-parent/snow-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow-parent/snow-gateway/target/classes/cn/snowBoard/SnowGateWayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/snow-parent/snow-gateway/target/classes/cn/snowBoard/SnowGateWayApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,14 @@
         <option name="userSettingsFile" value="D:\devEnv\jdk\maven\3.5.4\apache-maven-3.5.4 (1)\apache-maven-3.5.4\conf\settings-lenovo.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -50,27 +63,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/ferayProject/snowDown/snowDown/snow-parent/snow-login/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IdeaProjects/spring-cloud-demo" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
         <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoginApplication">
+  <component name="RunManager" selected="Spring Boot.SnowGateWayApplication">
     <configuration name="LoginApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.snowBoard.LoginApplication" />
       <module name="snow-login" />
@@ -110,13 +126,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.LoginApplication" />
-        <item itemvalue="Application.cn.snowBoard.SnoweEurekaApplication" />
-        <item itemvalue="Application.cn.snowBoard.SnowGateWayApplication" />
-      </list>
-    </recent_temporary>
+    <configuration name="LoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="snow-login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.snowBoard.LoginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowGateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="snow-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.snowBoard.SnowGateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnoweEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="snow-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.snowBoard.SnoweEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,8 +156,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666082152340</updated>
+      <workItem from="1666163641620" duration="6172000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

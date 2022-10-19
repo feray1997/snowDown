@@ -28,6 +28,7 @@
         <mysql.version>5.1.47</mysql.version>
         <cloud-alibaba.version>0.2.2.RELEASE</cloud-alibaba.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
+        <nacos.version>2.2.5.RELEASE</nacos.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -35,6 +36,14 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--nacos的管理依赖-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${nacos.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
