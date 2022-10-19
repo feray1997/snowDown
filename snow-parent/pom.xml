@@ -13,6 +13,7 @@
         <module>snow-serviceManager</module>
         <module>snow-login</module>
         <module>snow-gateway</module>
+        <module>snow-common</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
