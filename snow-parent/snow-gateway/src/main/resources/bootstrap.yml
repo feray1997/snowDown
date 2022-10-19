@@ -5,8 +5,11 @@ spring:
     name: snow-gateway
   cloud:
     nacos:
-      config:
+      discovery:
         server-addr: 114.132.210.56:8848
+      config:
+        server-addr: 114.132.210.56:8848 #Nacos地址
+        file-extension: yaml #这里我们获取的yaml格式的配置
 #        server-addr: 127.0.0.1:8848
     gateway:
       discovery:

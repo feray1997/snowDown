@@ -28,7 +28,7 @@
         <mysql.version>5.1.47</mysql.version>
         <cloud-alibaba.version>0.2.2.RELEASE</cloud-alibaba.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-        <nacos.version>2.2.5.RELEASE</nacos.version>
+        <nacos.version>2.1.0.RELEASE</nacos.version>
     </properties>
     <dependencyManagement>
         <dependencies>
